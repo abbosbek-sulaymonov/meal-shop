@@ -1,7 +1,5 @@
 import { API_URL } from "./config";
 
-// functions to get and filter data from the API
-
 // filter data using categories
 
 const getFilterCategory = async (category) => {

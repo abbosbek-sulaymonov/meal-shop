@@ -1,0 +1,58 @@
+.homeContainer {
+  min-height: calc(100vh - 200px);
+  padding-bottom: 40px;
+}
+
+.heroSection {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  color: #5a6c7d;
+  margin-bottom: 30px;
+}
+
+.resultsSection {
+  margin-top: 40px;
+}
+
+.resultsTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.noResults {
+  text-align: center;
+  padding: 60px 20px;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+
+  .heroSection {
+    padding: 40px 15px 30px;
+  }
+}

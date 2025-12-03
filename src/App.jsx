@@ -1,19 +1,20 @@
-import "./App.css";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Content from "./pages/Content";
-import { Route, Routes } from "react-router-dom";
-import NotFound from "./pages/NotFound";
-import Category from "./pages/Category";
-import CategoryLists from "./pages/CategoryLists";
-import Recipe from "./pages/Recipe";
-import MealList from "./components/MealList";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+
+import Header from './layout/Header';
+import Footer from './layout/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Content from './pages/Content';
+import NotFound from './pages/NotFound';
+import Category from './pages/Category';
+import CategoryLists from './pages/CategoryLists';
+import Recipe from './pages/Recipe';
+import MealList from './components/MealList';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Header />
       <main className="container content">
         <Routes>
@@ -30,7 +31,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 
