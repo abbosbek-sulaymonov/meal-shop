@@ -60,7 +60,7 @@ Meal Shop is a comprehensive recipe discovery platform that helps users explore,
 
 ## 🎬 Demo
 
-[Live Demo](https://meal-shop-self.vercel.app/) 
+[Live Demo](https://meal-shop-self.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -93,12 +93,14 @@ Meal Shop is a comprehensive recipe discovery platform that helps users explore,
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
-git clone https://github.com/abbosbek-cloud/meal-shop.git
+git clone https://github.com/abbosbek-sulaymonov/meal-shop.git
 cd meal-shop
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 # or
@@ -106,6 +108,7 @@ yarn install
 ```
 
 3. **Start development server**
+
 ```bash
 npm run dev
 # or
@@ -113,6 +116,7 @@ yarn dev
 ```
 
 4. **Open in browser**
+
 ```
 http://localhost:5173
 ```
@@ -178,30 +182,35 @@ meal-shop/
 ### Pages
 
 #### Home (`/`)
+
 - Hero section with search
 - Category grid with cards
 - Loading states with shimmer effect
 - Search functionality with URL parameters
 
 #### About (`/about`)
+
 - Company mission and values
 - Feature highlights
 - Team testimonials
 - Call-to-action sections
 
 #### Content (`/content`)
+
 - Tabbed content (Articles, Videos, Guides, Tips)
 - Resource cards with metadata
 - Newsletter subscription
 - Statistics showcase
 
 #### Category (`/category/:name`)
+
 - Filtered meal list by category
 - Compact card grid layout
 - Favorite functionality
 - Back navigation
 
 #### Recipe (`/meal/:id`)
+
 - Full recipe details
 - Ingredient list with measurements
 - Step-by-step instructions
@@ -210,12 +219,14 @@ meal-shop/
 - Sidebar with quick info
 
 #### Not Found (`*`)
+
 - 404 error page
 - Navigation back to home
 
 ### Key Components
 
 #### Header
+
 ```jsx
 - Sticky navigation with blur effect
 - Mobile hamburger menu
@@ -224,6 +235,7 @@ meal-shop/
 ```
 
 #### Footer
+
 ```jsx
 - Multi-column layout
 - Social media links
@@ -232,6 +244,7 @@ meal-shop/
 ```
 
 #### Loader
+
 ```jsx
 - Shimmer skeleton screens
 - Configurable card count
@@ -239,6 +252,7 @@ meal-shop/
 ```
 
 #### Search
+
 ```jsx
 - Real-time search input
 - Clear button
@@ -247,6 +261,7 @@ meal-shop/
 ```
 
 #### CategoryItem
+
 ```jsx
 - Recipe card with image
 - Hover effects
@@ -337,16 +352,20 @@ export const getMealById = async (id) => {
 
 ```css
 /* Mobile */
-@media (max-width: 600px) { }
+@media (max-width: 600px) {
+}
 
 /* Tablet */
-@media (max-width: 768px) { }
+@media (max-width: 768px) {
+}
 
 /* Desktop */
-@media (max-width: 1024px) { }
+@media (max-width: 1024px) {
+}
 
 /* Large Desktop */
-@media (max-width: 1200px) { }
+@media (max-width: 1200px) {
+}
 ```
 
 ### Typography
@@ -474,14 +493,14 @@ Core Web Vitals:
 
 ## 🌐 Browser Support
 
-| Browser | Version |
-|---------|---------|
-| Chrome | Last 2 versions |
-| Firefox | Last 2 versions |
-| Safari | Last 2 versions |
-| Edge | Last 2 versions |
-| Mobile Safari | iOS 12+ |
-| Chrome Mobile | Android 8+ |
+| Browser       | Version         |
+| ------------- | --------------- |
+| Chrome        | Last 2 versions |
+| Firefox       | Last 2 versions |
+| Safari        | Last 2 versions |
+| Edge          | Last 2 versions |
+| Mobile Safari | iOS 12+         |
+| Chrome Mobile | Android 8+      |
 
 ## 🔧 Configuration
 
@@ -518,16 +537,19 @@ export default defineConfig({
 ## 🧪 Testing
 
 ### Unit Tests
+
 ```bash
 npm run test
 ```
 
 ### E2E Tests
+
 ```bash
 npm run test:e2e
 ```
 
 ### Coverage Report
+
 ```bash
 npm run test:coverage
 ```
@@ -578,6 +600,7 @@ Contributions are welcome! Please follow these steps:
 ### Version 1.0.0 (2024-12-03)
 
 **Added**
+
 - Initial release
 - Home page with category browsing
 - Recipe detail pages
@@ -587,6 +610,7 @@ Contributions are welcome! Please follow these steps:
 - About and Content pages
 
 **Features**
+
 - Modern UI with glassmorphism effects
 - Sticky navigation with blur
 - Shimmer loading states
@@ -602,6 +626,7 @@ Contributions are welcome! Please follow these steps:
 ## 📈 Roadmap
 
 ### Version 1.1.0
+
 - [ ] User authentication
 - [ ] Recipe ratings and reviews
 - [ ] Shopping list feature
@@ -609,6 +634,7 @@ Contributions are welcome! Please follow these steps:
 - [ ] Recipe sharing on social media
 
 ### Version 1.2.0
+
 - [ ] PWA support
 - [ ] Offline mode
 - [ ] Push notifications
@@ -616,6 +642,7 @@ Contributions are welcome! Please follow these steps:
 - [ ] Dark mode toggle
 
 ### Version 2.0.0
+
 - [ ] User-generated recipes
 - [ ] Community features
 - [ ] Recipe collections
@@ -654,7 +681,7 @@ copies or substantial portions of the Software.
 
 **Project Maintainer**: Abbosbek
 
-- GitHub: [@Abbosbek-cloud](https://github.com/Abbosbek-cloud)
+- GitHub: [@abbosbek-sulaymonov](https://github.com/abbosbek-sulaymonov)
 - Email: your.email@example.com
 - LinkedIn: [Abbosbek Sulaymonov](https://linkedin.com/in/abek01sulaymonov)
 
